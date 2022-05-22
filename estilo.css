@@ -18,7 +18,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 padding-top: 30px;
 }
 .logo {
-height: 200px;
+height: 250px;
 width: 100%;
 padding-left: 50px;
 padding-right: 50px;
@@ -39,7 +39,7 @@ a {
     list-style: none;
   }
   .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
   /* Navigation */
@@ -121,9 +121,15 @@ a {
     }
     
   @media (max-width: 700px) {
+    .logo {
+      height: 250px;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      }
     .bienvenida {
       text-align: center;
-      color: red;
+      color: blue;
       font-size: 25px;
       }
     .social p {
@@ -174,6 +180,21 @@ a {
     }
   }
   @media (max-width: 500px) {
+    .logo {
+      height: 200px;
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+      }
+    header{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,0a0e0a+100 */
+      background: #aebcbf; /* Old browsers */
+      background: -moz-linear-gradient(top,  #aebcbf 0%, #0a0e0a 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #aebcbf 0%,#0a0e0a 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #aebcbf 0%,#0a0e0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0e0a',GradientType=0 ); /* IE6-9 */
+width: 100%;  
+    }
     .bienvenida {
       text-align: center;
       color: blue;
@@ -230,6 +251,26 @@ a {
     }
   }
   @media (max-width: 300px) {
+    .bienvenida {
+      text-align: center;
+      color: blue;
+      font-size: 15px;
+      }
+    .logo {
+      height: 150px;
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+      }
+    header{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,0a0e0a+100 */
+      background: #aebcbf; /* Old browsers */
+      background: -moz-linear-gradient(top,  #aebcbf 0%, #0a0e0a 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #aebcbf 0%,#0a0e0a 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #aebcbf 0%,#0a0e0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0e0a',GradientType=0 ); /* IE6-9 */
+width: 100%;  
+    }
     .social p {
       text-align: center;
       margin-bottom: 20px;
