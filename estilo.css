@@ -11,6 +11,12 @@ background: -webkit-linear-gradient(top,  #aebcbf 0%,#0a0e0a 100%); /* Chrome10-
 background: linear-gradient(to bottom,  #aebcbf 0%,#0a0e0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0e0a',GradientType=0 ); /* IE6-9 */
 }
+.presentacion{
+text-align: center;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 30px;
+}
 .logo {
 height: 200px;
 width: 100%;
@@ -23,7 +29,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .bienvenida {
 text-align: center;
-color: red;
+color: blue;
 }
 a {
     color: black;
@@ -92,36 +98,6 @@ a {
     font-size: 20px;
     margin: 10px 0;
   }
-  .news-cards a {
-    padding: 10px 0;
-    color: black;
-    text-transform: uppercase;
-    display: inline-block;
-    font-weight: bold;
-  }
-  .ver1 {
-  padding-top: 10px;
-  font-size: 17px;
-  }
-  .ver2 {
-    padding-top: 32px;
-    font-size: 17px;
-    }
-  .ver4 {
-  padding-top: 94px;
-  font-size: 17px;
-  }
-  .ver6 {
-  padding-top: 14px;
-  font-size: 17px;
-  }
-  .ver7 {
-  padding-top: 14px;
-  font-size: 17px;
-  }
-  .ver8 {
-    font-size: 17px;
-    }
     .social {
       margin: 50px;
     }
@@ -145,43 +121,16 @@ a {
     }
     
   @media (max-width: 700px) {
-      .bienvenida {
-text-align: center;
-color: red;
-font-size: 25px;
-}
+    .bienvenida {
+      text-align: center;
+      color: red;
+      font-size: 25px;
+      }
     .social p {
       text-align: center;
       font-size: 30px;
       margin-bottom: 20px;
-      font-size: 25px;
     }    
-.ver1 {
-      padding-top: 10px;
-      font-size: 17px;
-      }
-      .ver2 {
-        padding-top: 25px;
-        font-size: 17px;
-        }
-      .ver4 {
-      padding-top: 80px;
-      font-size: 17px;
-      }
-      .ver6 {
-      padding-top: 30px;
-      font-size: 17px;
-      }
-      .ver7 {
-      padding-top: 20px;
-      font-size: 17px;
-      }
-      .ver8 {
-        font-size: 17px;
-        }
-    .menu-btn {
-      display: block;
-    }
     .menu-btn:hover {
       opacity: 0.5;
     }
@@ -225,40 +174,16 @@ font-size: 25px;
     }
   }
   @media (max-width: 500px) {
-   .bienvenida {
+    .bienvenida {
       text-align: center;
       color: blue;
       font-size: 20px;
       }
-  .social p {
+    .social p {
       text-align: center;
-      font-size: 30px;
       margin-bottom: 20px;
       font-size: 25px;
     }    
-.ver1 {
-      padding-top: 10px;
-      font-size: 17px;
-      }
-      .ver2 {
-        padding-top: 25px;
-        font-size: 17px;
-        }
-      .ver4 {
-      padding-top: 100px;
-      font-size: 17px;
-      }
-      .ver6 {
-      padding-top: 15px;
-      font-size: 17px;
-      }
-      .ver7 {
-      padding-top: 17px;
-      font-size: 17px;
-      }
-      .ver8 {
-        font-size: 17px;
-        }
     .menu-btn {
       display: block;
     }
@@ -307,33 +232,10 @@ font-size: 25px;
   @media (max-width: 300px) {
     .social p {
       text-align: center;
-      font-size: 30px;
       margin-bottom: 20px;
       font-size: 20px;
     }    
-.ver1 {
-      padding-top: 10px;
-      font-size: 17px;
-      }
-      .ver2 {
-        padding-top: 27px;
-        font-size: 17px;
-        }
-      .ver4 {
-      padding-top: 220px;
-      font-size: 17px;
-      }
-      .ver6 {
-      padding-top: 60px;
-      font-size: 17px;
-      }
-      .ver7 {
-      padding-top: 55px;
-      font-size: 17px;
-      }
-      .ver8 {
-        font-size: 17px;
-        }
+
     .menu-btn {
       display: block;
     }
