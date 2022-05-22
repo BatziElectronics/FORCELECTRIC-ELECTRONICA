@@ -145,6 +145,10 @@ a {
     }
     
   @media (max-width: 700px) {
+      .bienvenida {
+text-align: center;
+color: red;
+}
     .social p {
       text-align: center;
       font-size: 30px;
