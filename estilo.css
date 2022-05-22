@@ -225,7 +225,12 @@ font-size: 25px;
     }
   }
   @media (max-width: 500px) {
-    .social p {
+   .bienvenida {
+      text-align: center;
+      color: red;
+      font-size: 20px;
+      }
+  .social p {
       text-align: center;
       font-size: 30px;
       margin-bottom: 20px;
