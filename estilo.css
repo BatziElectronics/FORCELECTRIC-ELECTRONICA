@@ -145,6 +145,35 @@ a {
     }
     
   @media (max-width: 700px) {
+    .social p {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-size: 25px;
+    }    
+.ver1 {
+      padding-top: 10px;
+      font-size: 17px;
+      }
+      .ver2 {
+        padding-top: 62px;
+        font-size: 17px;
+        }
+      .ver4 {
+      padding-top: 280px;
+      font-size: 17px;
+      }
+      .ver6 {
+      padding-top: 90px;
+      font-size: 17px;
+      }
+      .ver7 {
+      padding-top: 39px;
+      font-size: 17px;
+      }
+      .ver8 {
+        font-size: 17px;
+        }
     .menu-btn {
       display: block;
     }
@@ -190,3 +219,4 @@ a {
       grid-template-columns: repeat(2, 1fr);
     }
   }
+  
